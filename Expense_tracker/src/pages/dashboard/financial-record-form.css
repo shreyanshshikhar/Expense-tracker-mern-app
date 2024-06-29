@@ -1,0 +1,76 @@
+/* financial-record-form.css */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Light blue-gray background */
+    border: 1px solid #d1d9e6;
+    /* Light blue-gray border */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #4a4e69;
+    font-weight: bolder;
+    /* Dark blue-gray label text */
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    /* Light blue-gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    background-color: royalblue;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #d1d9e6;
+    /* Light blue-gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #4a4e69;
+    /* Dark blue-gray text */
+}
+
+.button {
+    background-color: #6d5a72;
+    /* Purple */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #543c4e;
+    /* Darker purple on hover */
+}
+
+.button:disabled {
+    background-color: #b3acb9;
+    /* Light purple when disabled */
+    cursor: not-allowed;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
